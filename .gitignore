@@ -1,0 +1,33 @@
+# Ignore raw datasets and large output folders
+
+XAI_results/
+__pycache__/
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+
+# Ignore Python cache and environment files
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+.DS_Store
+.vscode/
+.idea/
+
+# Environment and virtualenvs
+venv/
+env/
+*.egg-info/
+*.log
+
+# Jupyter and intermediate notebooks
+*.ipynb_checkpoints/
